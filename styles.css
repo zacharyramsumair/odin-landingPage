@@ -80,6 +80,8 @@ nav {
 
 .actors > h1 {
 	margin-bottom: 1em;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .actor > p {
