@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 3em;
+	background-color: transparent;
+	background-color: #1f2937;
+	color: #fff;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+	list-style: none;
+	padding: 0 0.5em;
+}
+
+.nav-additionallinks {
+	display: flex;
+	justify-content: space-around;
+}
+
+.hero {
+	background-color: #1f2937;
+	padding: 3em 3em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+}
+
+.hero-text {
+	width: 40%;
+}
+
+.hero-image {
+	width: 55%;
+}
+
+.hero-text > h1 {
+	font-size: 2.5rem;
+	margin-bottom: 0.5em;
+}
+
+.hero-text > p {
+	font-size: 1.3rem;
+	color: #e5e7eb;
+	margin-bottom: 0.5em;
+}
+
+.hero-text > button {
+	font-size: 1.3rem;
+    color: #fff;
+    font-weight: 700;
+	background-color: #3882f6;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	border: none;
+	/* color: #e5e7eb; */
+	/* margin-bottom: 0.5em; */
+}
+
+.hero-image > img {
+	width: 100%;
+}
+
+.starring {
+	display: flex;
+	justify-content: space-around;
+}
+
+.actors {
+	text-align: center;
+	padding: 1em 0;
+}
+
+.actors > h1 {
+	margin-bottom: 1em;
+}
+
+.actor > p {
+	font-size: 1.3rem;
+	color: #e5e7eb;
+    color: #1f2937;
+
+}
+
+.actor-image {
+	width: 15em;
+	height: 15em;
+	border-radius: 10px;
+}
+
+.quote{
+   display: flex;
+   justify-content: center;
+   padding: 6em 0;
+   background-color:#e5e7eb;
+   color: #1f2937;
+
+}
+
+.quote > div {
+	width: 65%;
+}
+
+.quote-text {
+	font-style: italic;
+    font-size: 2.5rem;
+}
+
+.quote-source{
+    /* justify-content: flex-end; */
+    float: right;
+    font-size: 1.5rem;
+
+}
+
+
+.call{
+    display: flex;
+    margin: 5em 8em;
+    padding: 4em 1em;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.call-first{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+
+.call-second{
+    color: #e5e7eb;
+    font-size: 1.2rem;
+}
+
+
+
+.call-button{
+    padding: 1em 3em;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #fff;
+font-size: 1rem;
+
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 1rem;
+    padding: 1em;
+}
